@@ -23,5 +23,26 @@ public class Main {
         libro5.imprimir();
         System.out.println(libro5.imprimirCubierta());
 
+        Canciones canciones = new Canciones("Blinding","Synth - pop",3.20,"The Weeknd",171);
+        Canciones canciones2 = new Canciones("Shape of You","Pop",3.53,"Ed Sheeran",260);
+
+        canciones.imprimirCanciones();
+        System.out.println(canciones.imprimirDuracion());
+
+        canciones2.imprimirCanciones();
+        System.out.println(canciones2.imprimirDuracion());
+
+        Series series = new Series("BLACK MIRROR",6,2011,45.15,27);
+        Series series2 = new Series("THE OFFICE",9,2005,28.45,201);
+
+        series.imprimirSeries();
+        System.out.println(series.imprimirEpisodios());
+
+        series2.imprimirSeries();
+        System.out.println(series2.imprimirEpisodios());
+
+
+
+
     }
 }
