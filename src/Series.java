@@ -14,6 +14,46 @@ public class Series {
         this.episodios = episodios;
     }
 
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public int getTemporada() {
+        return temporada;
+    }
+
+    public void setTemporada(int temporada) {
+        this.temporada = temporada;
+    }
+
+    public int getAñoEstreno() {
+        return añoEstreno;
+    }
+
+    public void setAñoEstreno(int añoEstreno) {
+        this.añoEstreno = añoEstreno;
+    }
+
+    public double getDuracion() {
+        return duracion;
+    }
+
+    public void setDuracion(double duracion) {
+        this.duracion = duracion;
+    }
+
+    public int getEpisodios() {
+        return episodios;
+    }
+
+    public void setEpisodios(int episodios) {
+        this.episodios = episodios;
+    }
+
     public void imprimirSeries(){
             System.out.println(" ------------------- ");
             System.out.println("        SERIES       ");
