@@ -45,6 +45,9 @@ public class Videojuegos {
     }
 
     public void imprimirVideojuegos(){
+        System.out.println(" ------------------- ");
+        System.out.println("        VIDEOJUEGOS       ");
+        System.out.println("-------------------- ");
         System.out.println("Nombre: " + nombre);
         System.out.println("Genero: " + genero);
         System.out.println("Año: " + año);
